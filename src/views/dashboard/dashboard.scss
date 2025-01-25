@@ -1,0 +1,63 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .goto-cards-cointainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+        .goto-card {
+            position: relative;
+            width: 300px;
+            height: 300px;
+            background-color: rgb(0, 100, 148); // Světle modrá/turquoise
+            margin: 20px;
+            display: block;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+
+            h2 {
+                font-size: 3rem;
+                font-weight: 700;
+                margin: 10px;
+                color: #FFFFFF; // Text bude bílý pro kontrast
+            }
+
+            p {
+                font-size: 1rem;
+                font-weight: 400;
+                margin: 10px;
+                color: #FFFFFF; // Text bude bílý pro kontrast
+            }
+
+            &:hover {
+                background-color: rgb(0, 63, 92); // Světle fialová při hover
+            }
+
+            button {
+                display: block;
+                position: absolute;
+                width: 300px;
+                height: 50px;
+                font-size: 1.2rem;
+                font-weight: 700;
+                background-color: rgb(16, 148, 255); // Světle modrá
+                border: 0;
+                cursor: pointer;
+                bottom: 0px;
+                color: white;
+                transition: background-color 0.3s ease;
+
+                &:hover {
+                    background-color: rgb(0, 100, 148); // Světle modrá/turquoise při hover
+                }
+            }
+        }
+    }
+}

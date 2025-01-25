@@ -1,0 +1,104 @@
+.modal {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100vw;
+    height: 120vh;
+    overflow: hidden;
+    scrollbar-width: none;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    .title {
+        margin-top: 40px;
+    }
+
+    .modal-button {
+        width: 42px;
+        height: 42px;
+        font-size: 32px;
+        line-height: 30px;
+        font-weight: 800;
+        background-color: rgb(67, 168, 195);
+        float: right;
+        color: white;
+        border: 0;
+        cursor: pointer;
+        
+        &:hover {
+            background-color: rgb(0, 100, 148);
+        }
+    }
+
+    .close-button {
+        float: right;
+        cursor: pointer;
+    }
+
+    .edit-button {
+        line-height: 25px;
+        float: left;
+    }
+
+    .save-button {
+        float: left;
+        line-height: 25px;
+    }
+
+    .modal-input {
+        width: 40%;
+        height: 30px;
+        margin-left: 10px;
+        margin-right: 20px;
+
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .modal-textarea {
+        width: 40%;
+        height: 100px;
+        margin-left: 10px;
+        margin-right: 20px;
+        min-width: 100px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+}
+
+.modal-content {
+    width: 500px;
+    height: 600px;
+    margin: 20vh auto;
+    background-color: white;
+}
+
+.modal-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+
+.modal-title {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 80px;
+    text-align: left;
+    font-weight: 700;
+}
+
+.modal-value {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-right: 80px;
+    text-align: center;
+}

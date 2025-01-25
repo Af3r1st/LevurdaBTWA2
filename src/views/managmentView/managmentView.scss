@@ -1,0 +1,82 @@
+.bigtable-employees {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.56); // Poloprůhledná černá zůstává
+
+   
+}
+
+.bigtable-employees-table {
+    position: relative;
+    display: grid;
+    margin: 40px auto;
+    width: 80%;
+    height: 90%;
+    background-color: rgb(255, 255, 255); // Bílá tabulka
+}
+
+.bigtable-employees-table-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    line-height: 80px;
+    
+    .bigtable-employees-table-item-cell {
+        background-color: rgb(255, 255, 255);
+
+        input {
+            width: 80%;
+            height: 50%;
+            font-size: 1.4rem;
+            background-color: rgba(237, 237, 237, 0.389);
+            text-align: center;
+            border: 1px solid rgb(0, 0, 0);
+            border-radius: 12px;
+            outline: none;
+        }
+
+        input:focus {
+            outline: 3px solid rgb(162, 199, 229); // Světle modrá
+            border: none;
+        }
+
+        button {
+            width: 80%;
+            height: 60%;
+            font-size: 1rem;
+            font-weight: bold;
+            background-color: rgb(67, 168, 195); // Světle tyrkysová
+            color: rgb(255, 255, 255);
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: rgb(0, 100, 148);// Světle fialová
+            }
+        }
+    }
+}
+
+.close-button-table {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 42px;
+    height: 42px;
+    font-size: 32px;
+    line-height: 30px;
+    font-weight: 800;
+    background-color: rgb(88, 252, 236); // Světle tyrkysová
+    color: rgb(255, 255, 255);
+    border: 0;
+    cursor: pointer;
+    
+    &:hover {
+        background-color: rgb(193, 189, 219); // Světle fialová
+    }
+}

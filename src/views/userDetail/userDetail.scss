@@ -1,0 +1,41 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.user-detail {
+    display: block;
+    text-align: left;
+    width: 500px;
+    margin: 0 auto;
+    position: static;
+    color: white;
+p {
+    color:rgb(0, 0, 0);
+    }
+    
+    
+}
+h1 {
+        text-align: center;
+        color: white;
+        
+    }
+h2{
+    color:white;
+}
+
+.manage-employee-button {
+    position: relative;
+    width: 200px;
+    height: 60px;
+    background-color: rgb(0, 100, 148);
+    color: white;
+    border-radius: 8px;
+    font-weight: 600;
+    border: 0;
+    cursor: pointer;
+
+    &:hover {
+        background-color: rgb(5, 130, 202); ;
+        color: white;
+    }
+}

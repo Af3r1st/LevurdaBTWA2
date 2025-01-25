@@ -1,0 +1,154 @@
+{
+  "auth": [
+    {
+      "isSignedIn": true,
+      "userId": 1,
+      "name": "Mykhailo Levurda",
+      "email": "levurda@email.com",
+      "password": "pass",
+      "username":  "admin",
+      "employees": null,
+      "userRole": "admin"
+    },
+    {
+      "isSignedIn": true,
+      "userId": 2,
+      "username": "manager",
+      "email": "manager@email.com",
+      "password": "pass",
+      "name": "Josef Sypal",
+      "employees": [1, 2, 3, 4, 5],
+      "userRole": "manager"
+    },
+    {
+      "isSignedIn": true,
+      "userId": 3,
+      "username": "employee",
+      "email": "employee@email.com",
+      "password": "pass",
+      "name": "Vasyl Truchno",
+      "employees": null,
+      "userRole": "employee"
+    },
+    {
+      "isSignedIn": true,
+      "userId": 4,
+      "username": "secondManager",
+      "email": "manager@email.com",
+      "password": "pass",
+      "name": "Petr Pavel",
+      "employees": [6, 7, 8, 9, 10],
+      "userRole": "manager"
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "firstName": "Jan",
+      "lastName": "Novák",
+      "hours": 40,
+      "note": "Velmi spolehlivý",
+      "role": "developer",
+      "seniority": "senior"
+    },
+    {
+      "id": 2,
+      "firstName": "Eva",
+      "lastName": "Müller",
+      "hours": 35,
+      "note": "Práce na částečný úvazek",
+      "role": "project manager",
+      "seniority": "junior"
+    },
+    {
+      "id": 3,
+      "firstName": "Petr",
+      "lastName": "Svoboda",
+      "hours": 45,
+      "note": null,
+      "role": "analyst",
+      "seniority": "medior"
+    },
+    {
+      "id": 4,
+      "firstName": "Anna",
+      "lastName": "Schmidt",
+      "hours": 40,
+      "note": "Potřebuje zlepšení",
+      "role": "tester",
+      "seniority": "junior"
+    },
+    {
+      "id": 5,
+      "firstName": "Lukáš",
+      "lastName": "Dvořák",
+      "hours": 38,
+      "note": "Spolehlivý pracovník",
+      "role": "developer",
+      "seniority": "medior"
+    },
+    {
+      "id": 6,
+      "firstName": "Tomáš",
+      "lastName": "Bauer",
+      "hours": 42,
+      "note": null,
+      "role": "tester",
+      "seniority": "senior"
+    },
+    {
+      "id": 7,
+      "firstName": "Marie",
+      "lastName": "Klein",
+      "hours": 40,
+      "note": "Velký potenciál",
+      "role": "project manager",
+      "seniority": "medior"
+    },
+    {
+      "id": 8,
+      "firstName": "Karel",
+      "lastName": "Veselý",
+      "hours": 30,
+      "note": "Práce na částečný úvazek",
+      "role": "analyst",
+      "seniority": "junior"
+    },
+    {
+      "id": 9,
+      "firstName": "Helena",
+      "lastName": "Weber",
+      "hours": 37,
+      "note": null,
+      "role": "developer",
+      "seniority": "senior"
+    },
+    {
+      "id": 10,
+      "firstName": "David",
+      "lastName": "Maier",
+      "hours": 40,
+      "note": "Spolehlivý",
+      "role": "analyst",
+      "seniority": "medior"
+    },
+    {
+      "id": 11,
+      "firstName": "Jana",
+      "lastName": "Králová",
+      "hours": 41,
+      "note": "Iniciativní",
+      "role": "tester",
+      "seniority": "senior"
+    },
+    {
+      "id": 12,
+      "firstName": "Martin",
+      "lastName": "Schwarz",
+      "hours": 36,
+      "note": null,
+      "role": "developer",
+      "seniority": "junior"
+    }
+  ]
+}
